@@ -1,0 +1,54 @@
+/* Main container styles */
+.qr-code-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   /* Center vertically */
+    align-items: center;       /* Center horizontally */
+    height: 70vh;             /* Full height of the viewport */
+    width: 70vw;              /* Full width of the viewport */
+    background-color: #f0f8ff; /* Light background color */
+    color: #333;               /* Text color */
+    text-align: center;        /* Center text */
+    margin-left: 50%;                 /* Reset margin */
+    padding: 0;                /* Reset padding */
+  }
+  
+  /* QR Code title */
+  .qr-code-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px; /* Larger title size */
+    margin-bottom: 20px; /* Space below the title */
+  }
+  
+  /* QR Code display */
+  .qr-code-image {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px; /* Space below the QR code */
+    border: 5px solid #333; /* Border around the QR code */
+  }
+  
+  /* Instructions for scanning the QR code */
+  .qr-code-instructions {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Button to return to main screen */
+  .qr-code-button {
+    padding: 10px 20px; /* Button padding */
+    font-size: 18px; /* Font size for the button */
+    color: white; /* Text color */
+    background-color: #28a745; /* Bootstrap success color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition effect */
+  }
+  
+  .qr-code-button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }

@@ -1,0 +1,46 @@
+/* MainScreen.css */
+
+/* Main container styles */
+.main-screen-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* Vertically center */
+  align-items: center;       /* Horizontally center */
+  height: 80vh;             /* Full viewport height */
+  background-color: #f4f4f9; /* Light background color */
+  color: #333;               /* Text color */
+  text-align: center;        /* Center text */
+  
+}
+
+/* Title styles */
+.main-screen-title {
+  font-family: 'Arial', sans-serif;
+  font-size: 48px;            /* Large title size */
+  margin-bottom: 10px;        /* Space below title */
+  white-space: nowrap;        /* Prevent line break */
+  margin-left: 110%;
+}
+
+/* QR code container */
+.qr-code-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;        /* Horizontally center QR code */
+  justify-content: center;    /* Vertically center */
+}
+
+/* QR code image */
+.qr-code-image {
+  width: 300px;               /* Set fixed size for QR code */
+  height: 300px;
+  margin-top: 20px;           /* Add some margin above the QR code */
+  margin-left: 110%;
+}
+
+/* QR code title */
+.qr-code-title {
+  font-size: 24px;            /* Size of the "Scan QR Code" text */
+  margin-bottom: 20px;        /* Space below the QR code title */
+
+}
